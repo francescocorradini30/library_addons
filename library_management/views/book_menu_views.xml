@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Top menu item -->
+    <!--
+        This menu item's purpose is to overwrite another one defined in
+        the base module in order to set new groups.
+    -->
+    <menuitem
+        id="book_menu_root"
+        name="Library"
+        web_icon="library_management,static/description/icon.png"
+        sequence="25"/>
+
+    <!-- SALES (MAIN USER MENU) -->
+    <menuitem
+        id="book_list_menu"
+        name="Books"
+        parent="book_menu_root"
+        action="book_list_action"
+        sequence="1"/>
+</odoo>

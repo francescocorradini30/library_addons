@@ -1,0 +1,18 @@
+<odoo>
+    <record id="book_list_action" model="ir.actions.act_window">
+        <field name="name">Book Management</field>
+        <field name="res_model">lib.book</field>
+        <field name="view_mode">list</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new lead
+            </p>
+            <p>
+                Use leads if you need a qualification step before creating an
+                opportunity or a customer. It can be a business card you received,
+                a contact form filled in your website, or a file of unqualified
+                prospects you import, etc.
+            </p>
+        </field>
+    </record>
+</odoo>
